@@ -1,6 +1,4 @@
 FROM python:3.7-slim
-COPY --from=roy72199.live.dynatrace.com/linux/oneagent-codemodules:all / /
-ENV LD_PRELOAD /opt/dynatrace/oneagent/agent/lib64/liboneagentproc.so
 
 LABEL maintainer="ville-matti.mayra@tietoevry.com"
 
